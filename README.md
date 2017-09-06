@@ -13,7 +13,7 @@ I use a markov chain model of the tweets in a given corpus (see 'tweets_hate' or
 
 Already my naive bayse classifier has shown some interesting results. The top-twenty most informative features (i.e. if these words are used they most likely determine a negative or positive tweet) can be quite revealing:
 
-		   BIGRAM_love_u = 0.5            positi : negati =     51.6 : 1.0
+           BIGRAM_love_u = 0.5            positi : negati =     51.6 : 1.0
          BIGRAM_n't_hate = 0.5            negati : positi =     46.1 : 1.0
                 UNI_hate = 0.5            negati : positi =     39.6 : 1.0
                UNI_kills = 0.5            negati : positi =     35.3 : 1.0
@@ -34,7 +34,7 @@ Already my naive bayse classifier has shown some interesting results. The top-tw
              UNI_liberal = 0.5            negati : positi =     22.7 : 1.0
          UNI_performance = 0.5            negati : positi =     22.0 : 1.0
    BIGRAM_happy_birthday = 0.5            positi : negati =     20.6 : 1.0
-
+   
 ["UNI_..." represents a unigram (one 'word') and "BIGRAM_..." represents 2 words]
 
 The one token I found surprising was the token 'jimin'. Upon a quick search on twitter I found that it is the name of a member of BTS (the Korean Pop group). This name being an informative feature in my sentiment analysis is probably due to the major flaw in how I collect the data, K-POP fans use the word 'love' in there tweets more than the average user I suppose.
