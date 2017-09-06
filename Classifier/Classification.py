@@ -267,7 +267,7 @@ def save_classifier(train_sets, classifier_fname):
     # info_file.close()
     with open(classifier_fname.split(".")[0]+'-most-informative-features.txt','w', encoding="utf-8") as f:
         with redirect_stdout(f):
-            classifier.show_most_informative_features(20)
+            classifier.show_most_informative_features(100)
 
     return classifier
 
