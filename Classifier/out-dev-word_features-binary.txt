@@ -1,0 +1,19 @@
+Results of binary-development:
+
+Accuracy    0.95625
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<380> 20 |
+positive |  15<385>|
+---------+---------+
+(row = reference; col = test)
+
+

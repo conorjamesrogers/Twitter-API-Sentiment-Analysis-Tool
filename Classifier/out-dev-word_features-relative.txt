@@ -1,0 +1,19 @@
+Results of relative-improved-development:
+
+Accuracy    0.95000
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<386> 14 |
+positive |  26<374>|
+---------+---------+
+(row = reference; col = test)
+
+

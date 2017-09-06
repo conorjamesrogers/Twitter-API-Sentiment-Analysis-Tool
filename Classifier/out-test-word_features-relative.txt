@@ -1,0 +1,19 @@
+Results of relative-improved-testing:
+
+Accuracy    0.99020
+
+         |    n    p |
+         |    e    o |
+         |    g    s |
+         |    a    i |
+         |    t    t |
+         |    i    i |
+         |    v    v |
+         |    e    e |
+---------+-----------+
+negative |<4961>  39 |
+positive |   59<4941>|
+---------+-----------+
+(row = reference; col = test)
+
+

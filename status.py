@@ -1,6 +1,7 @@
 from twitter import *
 import markovify
 import pickle
+import config
 
 
 # tester = {}
@@ -9,25 +10,26 @@ import pickle
 # 	paradise_model = g.read()
 
 # print paradise_model
-with open('paradise_model') as f:
-	paradise_model = pickle.load(f)
 
-model = markovify.Text.from_json(paradise_model)
-#status in question
-testStatus = model.make_short_sentence(140, tries = 100)
+def writeStatus(file):
 
-# get token bits into a dict
-config = {}
-execfile("config.py",config)
+    with open(file,'rb') as f:
+        paradise_model = pickle.load(f)
 
-# # twitter API object creation
-twitterObj = Twitter(auth = OAuth(config["ACCESS_TOKEN"], config["ACCESS_SECRET"], config["CONSUMER_KEY"], config["CONSUMER_SECRET"]))
+    model = markovify.Text.from_json(paradise_model)
+    #status in question
+    testStatus = model.make_short_sentence(140, tries = 100)
 
-# # Posting new status
-result = twitterObj.statuses.update(status = testStatus)
+    config_dict = config.access()
+    print(config_dict)
+    # # twitter API object creation
+    # twitterObj = Twitter(auth = OAuth(config_dict["access_token"], config_dict["access_secret"], config_dict["consumer_key"], config_dict["consumer_secret"]))
 
-# for x in range(0, 10):
-# 	print model.make_short_sentence(140, tries = 100)
+    # # Posting new status
+    # result = twitterObj.statuses.update(status = testStatus)
 
-print "should have updated status as: %s" % testStatus
+    # for x in range(0, 10):
+    # 	print model.make_short_sentence(140, tries = 100)
+
+    print("should have updated status as: {0}".format(testStatus))
 

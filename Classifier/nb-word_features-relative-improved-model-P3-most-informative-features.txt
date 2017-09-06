@@ -1,0 +1,21 @@
+Most Informative Features
+           BIGRAM_love_u = 0.5            positi : negati =     51.6 : 1.0
+         BIGRAM_n't_hate = 0.5            negati : positi =     46.1 : 1.0
+                UNI_hate = 0.5            negati : positi =     39.6 : 1.0
+               UNI_kills = 0.5            negati : positi =     35.3 : 1.0
+               UNI_hated = 0.5            negati : positi =     34.5 : 1.0
+         UNI_seanhannity = 0.5            negati : positi =     32.0 : 1.0
+             UNI_muslims = 0.5            negati : positi =     32.0 : 1.0
+           BIGRAM_hate_u = 0.5            negati : positi =     28.7 : 1.0
+           UNI_happening = 0.5            negati : positi =     28.7 : 1.0
+               UNI_jimin = 0.5            positi : negati =     28.6 : 1.0
+               UNI_white = 0.5            negati : positi =     27.9 : 1.0
+      BIGRAM_people_hate = 0.5            negati : positi =     27.9 : 1.0
+        BIGRAM_hate_love = 0.5            negati : positi =     27.0 : 1.0
+                UNI_dick = 0.5            negati : positi =     27.0 : 1.0
+              UNI_killed = 0.5            negati : positi =     25.4 : 1.0
+            UNI_violence = 0.5            negati : positi =     24.5 : 1.0
+        BIGRAM_love_much = 0.5            positi : negati =     23.8 : 1.0
+         UNI_republicans = 0.5            negati : positi =     22.9 : 1.0
+             UNI_liberal = 0.5            negati : positi =     22.7 : 1.0
+         UNI_performance = 0.5            negati : positi =     22.0 : 1.0

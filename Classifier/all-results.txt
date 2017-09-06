@@ -1,0 +1,228 @@
+Results of absolute-testing:
+
+Accuracy    0.95500
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<386> 14 |
+positive |  22<378>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of absolute-development:
+
+Accuracy    0.94500
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<381> 19 |
+positive |  25<375>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of binary-testing:
+
+Accuracy    0.95875
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<381> 19 |
+positive |  14<386>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of binary-testing:
+
+Accuracy    0.05375
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative | <18>382 |
+positive | 375 <25>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of binary-testing:
+
+Accuracy    0.94625
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<378> 22 |
+positive |  21<379>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of binary-development:
+
+Accuracy    0.95625
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<380> 20 |
+positive |  15<385>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of relative-improved-testing:
+
+Accuracy    0.95750
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<393>  7 |
+positive |  27<373>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of relative-improved-development:
+
+Accuracy    0.95000
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<386> 14 |
+positive |  26<374>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of relative-improved-testing:
+
+Accuracy    0.99125
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<396>  4 |
+positive |   3<397>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of relative-improved-testing:
+
+Accuracy    0.98750
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<394>  6 |
+positive |   4<396>|
+---------+---------+
+(row = reference; col = test)
+
+
+Results of relative-improved-testing:
+
+Accuracy    0.98780
+
+         |    n    p |
+         |    e    o |
+         |    g    s |
+         |    a    i |
+         |    t    t |
+         |    i    i |
+         |    v    v |
+         |    e    e |
+---------+-----------+
+negative |<4948>  52 |
+positive |   70<4930>|
+---------+-----------+
+(row = reference; col = test)
+
+
+Results of relative-improved-testing:
+
+Accuracy    0.99020
+
+         |    n    p |
+         |    e    o |
+         |    g    s |
+         |    a    i |
+         |    t    t |
+         |    i    i |
+         |    v    v |
+         |    e    e |
+---------+-----------+
+negative |<4961>  39 |
+positive |   59<4941>|
+---------+-----------+
+(row = reference; col = test)
+
+

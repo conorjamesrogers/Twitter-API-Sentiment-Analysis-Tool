@@ -1,0 +1,19 @@
+Results of binary-testing:
+
+Accuracy    0.94625
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<378> 22 |
+positive |  21<379>|
+---------+---------+
+(row = reference; col = test)
+
+

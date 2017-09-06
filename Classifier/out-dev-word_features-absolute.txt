@@ -1,0 +1,19 @@
+Results of absolute-development:
+
+Accuracy    0.94500
+
+         |   n   p |
+         |   e   o |
+         |   g   s |
+         |   a   i |
+         |   t   t |
+         |   i   i |
+         |   v   v |
+         |   e   e |
+---------+---------+
+negative |<381> 19 |
+positive |  25<375>|
+---------+---------+
+(row = reference; col = test)
+
+
