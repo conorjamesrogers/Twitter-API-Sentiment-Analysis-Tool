@@ -3,7 +3,7 @@ Status generation through markov chains of various corpa.
 
 -----------------
 
-##Overview
+###Overview
 
 Uses Markov Chains to generate corpora based on tweets selected based on keywords (such as Love or Hate). Uses corpora in an attempt to construct a tweet-classification model to determine words and phrases associated with positive or negative connoations. 
 
@@ -13,7 +13,7 @@ All of this, ofcourse, assumes that Love / Hate key words are good way to find p
 
 ------------------
 
-##Explaination
+###Explaination
 
 I generate two large corpora from just tapping into a live feed of the twitter API, selecting only tweets with the specific keyword 'love' or 'hate'. This is knowingly very blunt and can create a lot of issues, especially when the machine learning algorithms used base the classification whole-heartedly on word frequency (i.e. every word 'love' would be exclusevly positive) -- This is where the Markov Chains come in.
 
@@ -21,7 +21,7 @@ I use a markov chain model of the tweets in a given corpus (see 'tweets_hate' or
 
 ------------------
 
-##Example
+###Example
 
 Already my naive bayse classifier has shown some interesting results. The top-twenty most informative features (i.e. if these words are used they most likely determine a negative or positive tweet) can be quite revealing:
 ```
@@ -53,13 +53,13 @@ The one token I found surprising was the token 'jimin'. Upon a quick search on t
 
 ------------------
 
-#Uses:
+###Uses:
 
 markovify markov generation, nltk, twython, python twitter api and python3.5.
 
 Example in use: twitter.com/Wethuselah
 
-##Further Features
+###Further Features
 
 Top 100 Informative Features in my sentiment analysis:
 ```
