@@ -1,5 +1,6 @@
 # TwitterBot Sentiment Analysis
 Status generation through markov chains of various corpa.
+
 -----------------
 
 ##Overview
@@ -9,6 +10,7 @@ Uses Markov Chains to generate corpora based on tweets selected based on keyword
 Uses a naive bayes classification (number of times a specific word appears in a given corpora vs over number of words, then gives that word a value based on if it appears more in a negative context or positive context) but can also classify using Binary classification (strict positive or negative) and Absolute classification (just looking at how many times a specific word appears in specific negative or positive contexts). 
 
 All of this, ofcourse, assumes that Love / Hate key words are good way to find positive (love) or negative (hate) tweets (sarcasm is ignored). 
+
 ------------------
 
 ##Explaination
@@ -16,6 +18,7 @@ All of this, ofcourse, assumes that Love / Hate key words are good way to find p
 I generate two large corpora from just tapping into a live feed of the twitter API, selecting only tweets with the specific keyword 'love' or 'hate'. This is knowingly very blunt and can create a lot of issues, especially when the machine learning algorithms used base the classification whole-heartedly on word frequency (i.e. every word 'love' would be exclusevly positive) -- This is where the Markov Chains come in.
 
 I use a markov chain model of the tweets in a given corpus (see 'tweets_hate' or 'tweets_love' in /text to view these corpora). This enables me to have a fresh, 'randomized' tweet that is close-enough to a knowingly negative or positive nature based on very simple paradigms (such as one word can determine if a tweet is positive or negative). These ideas are flawed yet practical in the sense that it is very hard to find data to train your robot on what is negative or positive in the wild.
+
 ------------------
 
 ##Example
@@ -47,6 +50,7 @@ Already my naive bayse classifier has shown some interesting results. The top-tw
 ["UNI_..." represents a unigram (one 'word') and "BIGRAM_..." represents 2 words]
 
 The one token I found surprising was the token 'jimin'. Upon a quick search on twitter I found that it is the name of a member of BTS (the Korean Pop group). This name being an informative feature in my sentiment analysis is probably due to the major flaw in how I collect the data, K-POP fans use the word 'love' in there tweets more than the average user I suppose.
+
 ------------------
 
 #Uses:
