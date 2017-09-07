@@ -1,5 +1,5 @@
 # Twitter Sentiment Analysis
-Status generation through markov chains of various corpa.
+Experiments with Twitter API using Markov Chains. Python3.5 and NLTK. Statement classification and analysis.
 
 -----------------
 
