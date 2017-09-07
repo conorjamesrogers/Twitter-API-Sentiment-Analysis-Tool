@@ -1,4 +1,4 @@
-# TwitterBot Sentiment Analysis
+# Twitter Sentiment Analysis
 Status generation through markov chains of various corpa.
 
 -----------------
