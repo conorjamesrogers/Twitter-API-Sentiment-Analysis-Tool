@@ -23,7 +23,7 @@ I use a markov chain model of the tweets in a given corpus (see 'tweets_hate' or
 
 ### Example
 
-Already my naive bayse classifier has shown some interesting results. The top-twenty most informative features (i.e. if these words are used they most likely determine a negative or positive tweet) can be quite revealing:
+Already my naive bayes classifier has shown some interesting results. The top-twenty most informative features (i.e. if these words are used they most likely determine a negative or positive tweet) can be quite revealing:
 ```
            BIGRAM_love_u = 0.5            positi : negati =     51.6 : 1.0
          BIGRAM_n't_hate = 0.5            negati : positi =     46.1 : 1.0
