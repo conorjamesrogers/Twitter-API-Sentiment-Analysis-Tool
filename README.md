@@ -57,8 +57,6 @@ The one token I found surprising was the token 'jimin'. Upon a quick search on t
 
 markovify markov generation, nltk, twython, python twitter api and python3.5.
 
-Example in use: twitter.com/Wethuselah
-
 ### Further Features
 
 Top 100 Informative Features in my sentiment analysis:
